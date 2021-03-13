@@ -1,0 +1,36 @@
+h1 {
+    color: brown;
+}
+
+body {
+background-color: white;
+}
+
+.header {
+    background-color:#ADEFD1FF;
+display:flex;
+justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+
+}
+p{
+    color:black;
+    
+}
+::selection {
+    color:#FC766AFF;
+    background: #5B84B1FF;
+  }
+
+p,h2{
+    text-align: center;
+}
